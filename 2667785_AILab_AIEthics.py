@@ -76,10 +76,14 @@
 
 # **Markdown cell for discussing large language models**
 # 
+# Copyright 2020 The TensorFlow Authors. All Rights Reserved. Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+# http://www.apache.org/licenses/LICENSE-2.0
+# Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+# 
 # 1. The fact that words like "apple," "juice," "fruit," and "wine" are close together in the language model's vector space suggests that the model has learned to associate certain words with particular concepts or categories. This is referred to as semantic bias, and it can be a desirable property in certain applications, such as natural language processing or text classification. However, it can potenitally also lead to biases in the model's predictions, particularly if the training data contains culturally-loaded language. 
 # 
-# 2. The association of words like "Sir" and "Walter" with "engineer" and "Nurse" with "daughter" and "Rebecca" suggests that the language model has learned to associate certain words with particular professions or demographics. This is known as stereotyping, and it can be a source of bias in AI systems. Stereotypes can lead to inaccurate predictions and perpetuate harmful societal norms, particularly if they are based on incomplete or outdated information. For example, if a language model is trained on a dataset that contains mostly male engineers, it may have difficulty generating female engineers or associating engineering with women. Similarly, if the dataset has nurse as mainly women, it might be challenging to associate the pattern of male nurses.
-#    
+# 2. The association of words like "Sir" and "Walter" with "engineer" and "Nurse" with "daughter" and "Rebecca" suggests that the language model has learned to associate certain words with particular professions or demographics. This is known as stereotyping, and it can be a source of bias in AI systems. Stereotypes can lead to inaccurate predictions and perpetuate harmful societal norms, particularly if they are based on incomplete or outdated information. For example, if a language model is trained on a dataset that contains mostly male engineers, it may have difficulty generating female engineers or associating engineering with women. Similarly, if the dataset has nurse as mainly women, it might be challenging to associate the pattern of male nurses.ale nurses.
+# 
 # Examples:
 # 
 # ![Explainability Kaggle](images/engineerbias.png) 

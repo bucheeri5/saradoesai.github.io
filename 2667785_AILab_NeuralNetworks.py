@@ -131,7 +131,7 @@ shakespeare_model = tf.keras.Sequential([
 
 # # Generating Text
 
-# Arguably, this is the most fun part of this process! This is because we get to test whether the text aligns with Shakespear.
+# Arguably, this is the most fun part of this process! This is because we get to test whether the text aligns with Shakespeare.
 
 # In[11]:
 
@@ -202,4 +202,4 @@ print(extend_text("To be or not to be", temperature=100))
 
 # Fully gibberish- very poor quality.
 
-# Overall, this model is proving itself poor in the quality. One of the most reasonable explanations for this is that I reduced the size of the data to have a quicker loading time. When I compared outcome with my peer support group, they did have more coherent data in comparison to mine, which explains my outcomes. However, it is admirable that the dataset is only based on Shakespear and was able to produce semi-impressive results with my peers who ran all the data available. However, as mentioned in the beginning this raises issues about how viable it is within the humanities. Perhaps cultural items that are generally percieved as more prestigious and favorable by other people will have more datasets, but works from lesser known artists might not be pursued for such datasets. It would be interesting to see the application of this within exhibitions, such as robots that pretend to be certain figures from history that have been mimicked through generative AI. Once again, this would require extensive resources!
+# Overall, this model is proving itself poor in the quality. One of the most reasonable explanations for this is that I reduced the size of the data to have a quicker loading time. When I compared outcome with my peer support group, they did have more coherent data in comparison to mine, which explains my outcomes. As mentioned in the beginning this raises issues about how viable it is within the humanities. Perhaps cultural items that are generally percieved as more prestigious and favorable by other people will have more datasets, but works from lesser known artists might not be pursued for such datasets. This would replicate social inequalities, and perhaps western world art will be the first priotrized and examined, and this can be furthered when generative AI is only defining art by these parameters. Nevertheless, it would be interesting to see the application of this within exhibitions, such as robots that pretend to be certain figures from history that have been mimicked through generative AI. Once again, this would require extensive resources!
